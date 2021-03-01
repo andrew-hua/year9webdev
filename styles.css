@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+	color: #43ffaf;
+	font-family: 'Lexend Deca', sans-serif;
+
+}
+
+body {
+	background-color: #262a33;	
+	color: #43ffaf;
+	font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #262a33;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #43ffaf;
+  background-color: #262a33;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px 15px 10px;
+  cursor: pointer;
+}
+
+li a:hover {
+  background-color: #43ffaf;
+  transition-duration:0.4s;
+  color: #262a33;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: initial;
+  border: 2px solid #43ffaf;
+  color: #43ffaf;
+  padding: 15px;
+  text-align: left;
+  display: block;
+  margin: 3px;
+  font-size: 17pt;
+  border-radius: 8px;
+  max-width:500px;
+  
+  cursor: pointer;
+}
+a.button:hover {
+  color:#262a33;
+  transition-duration: 0.4s;
+  background-color:#43ffaf;
+}
